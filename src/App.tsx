@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { BROKERS, BROKER_CATEGORIES, type BrokerCategory, type BrokerPriority } from "./data/brokers";
+import { BROKERS, type BrokerCategory, type BrokerPriority } from "./data/brokers";
 import { useBrokerStatus } from "./hooks/useBrokerStatus";
 import { BrokerCard } from "./components/BrokerCard";
 import { FilterBar } from "./components/FilterBar";
